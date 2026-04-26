@@ -1,0 +1,7 @@
+--------------------------------------------------------------------------------
+INFO: AI will not use BAD NODES, and will error if forced to do so.
+INFO: USELESS NODES can be used by AI, but AI will not be able to shoot enemies.
+--------------------------------------------------------------------------------
+
+BAD NODE: path                           (    33,  -399,   222 ) is in solid.
+

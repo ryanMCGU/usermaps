@@ -1,0 +1,148 @@
+return 27000000
+^1Material 'mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal': Techsetdef 'mc/lit_decal_raindrops': Default image 'rain_hit_n' for Texture Element 'rippleMap' not found in gdtDB
+  material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal
+    xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+      xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+        col_map:maps/zm/zm_nacht.d3dbsp
+^1material 'mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal' using technique 'mc/lit_decal_raindrops#e6142445.gbuffer' from techniqueSet 'mc/lit_decal_raindrops#e6142445' doesn't expose a 'rippleMap' texture. Material textures:
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal
+      xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+        xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+          col_map:maps/zm/zm_nacht.d3dbsp
+^1    0: tintMask $white_reveal
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal
+      xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+        xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+          col_map:maps/zm/zm_nacht.d3dbsp
+^1    1: revealMap $white_reveal
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal
+      xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+        xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+          col_map:maps/zm/zm_nacht.d3dbsp
+^1    2: normalMap i_mtl_veh_t7_zmb_1931_pickup_body_n
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal
+      xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+        xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+          col_map:maps/zm/zm_nacht.d3dbsp
+^1    3: glossMap $white_gloss
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal
+      xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+        xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+          col_map:maps/zm/zm_nacht.d3dbsp
+^1    4: colorMap i_mtl_veh_t7_zmb_1931_pickup_body_n
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal
+      xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+        xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+          col_map:maps/zm/zm_nacht.d3dbsp
+^1The model (veh_t7_zmb_1931_truck_flatbed_rain_decal) uses material (mtl_veh_t7_zmb_1931_pickup_truck_rain_decal) but there is no techset for surface 0
+  xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+    xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+      col_map:maps/zm/zm_nacht.d3dbsp
+^1Material 'mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_fenders': Techsetdef 'mc/lit_decal_raindrops': Default image 'rain_hit_n' for Texture Element 'rippleMap' not found in gdtDB
+  material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_fenders
+    xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+      xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+        col_map:maps/zm/zm_nacht.d3dbsp
+^1material 'mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_fenders' using technique 'mc/lit_decal_raindrops#e6142445.gbuffer' from techniqueSet 'mc/lit_decal_raindrops#e6142445' doesn't expose a 'rippleMap' texture. Material textures:
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_fenders
+      xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+        xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+          col_map:maps/zm/zm_nacht.d3dbsp
+^1    0: tintMask $white_reveal
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_fenders
+      xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+        xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+          col_map:maps/zm/zm_nacht.d3dbsp
+^1    1: revealMap $white_reveal
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_fenders
+      xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+        xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+          col_map:maps/zm/zm_nacht.d3dbsp
+^1    2: normalMap i_mtl_veh_t7_zmb_1931_pickup_truck_attach_fenders_n
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_fenders
+      xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+        xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+          col_map:maps/zm/zm_nacht.d3dbsp
+^1    3: glossMap $white_gloss
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_fenders
+      xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+        xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+          col_map:maps/zm/zm_nacht.d3dbsp
+^1    4: colorMap i_mtl_veh_t7_zmb_1931_pickup_truck_attach_fenders_n
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_fenders
+      xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+        xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+          col_map:maps/zm/zm_nacht.d3dbsp
+^1The model (veh_t7_zmb_1931_truck_flatbed_rain_decal) uses material (mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_fenders) but there is no techset for surface 1
+  xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+    xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+      col_map:maps/zm/zm_nacht.d3dbsp
+^1Material 'mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_bed': Techsetdef 'mc/lit_decal_raindrops': Default image 'rain_hit_n' for Texture Element 'rippleMap' not found in gdtDB
+  material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_bed
+    xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+      xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+        col_map:maps/zm/zm_nacht.d3dbsp
+^1material 'mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_bed' using technique 'mc/lit_decal_raindrops#e6142445.gbuffer' from techniqueSet 'mc/lit_decal_raindrops#e6142445' doesn't expose a 'rippleMap' texture. Material textures:
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_bed
+      xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+        xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+          col_map:maps/zm/zm_nacht.d3dbsp
+^1    0: tintMask $white_reveal
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_bed
+      xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+        xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+          col_map:maps/zm/zm_nacht.d3dbsp
+^1    1: revealMap $white_reveal
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_bed
+      xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+        xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+          col_map:maps/zm/zm_nacht.d3dbsp
+^1    2: normalMap i_mtl_veh_t7_zmb_1931_pickup_van_attach_n
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_bed
+      xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+        xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+          col_map:maps/zm/zm_nacht.d3dbsp
+^1    3: glossMap $white_gloss
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_bed
+      xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+        xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+          col_map:maps/zm/zm_nacht.d3dbsp
+^1    4: colorMap i_mtl_veh_t7_zmb_1931_pickup_van_attach_n
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_bed
+      xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+        xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+          col_map:maps/zm/zm_nacht.d3dbsp
+^1The model (veh_t7_zmb_1931_truck_flatbed_rain_decal) uses material (mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_bed) but there is no techset for surface 2
+  xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+    xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+      col_map:maps/zm/zm_nacht.d3dbsp
+^1The model (veh_t7_zmb_1931_truck_flatbed_rain_decal) uses material (mtl_veh_t7_zmb_1931_pickup_truck_rain_decal) but there is no techset for surface 0
+  xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+    xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+      col_map:maps/zm/zm_nacht.d3dbsp
+^1The model (veh_t7_zmb_1931_truck_flatbed_rain_decal) uses material (mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_fenders) but there is no techset for surface 1
+  xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+    xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+      col_map:maps/zm/zm_nacht.d3dbsp
+^1The model (veh_t7_zmb_1931_truck_flatbed_rain_decal) uses material (mtl_veh_t7_zmb_1931_pickup_truck_rain_decal_bed) but there is no techset for surface 2
+  xmodel:veh_t7_zmb_1931_truck_flatbed_rain_decal
+    xmodel:veh_t7_zmb_1931_truck_flatbed_blue
+      col_map:maps/zm/zm_nacht.d3dbsp

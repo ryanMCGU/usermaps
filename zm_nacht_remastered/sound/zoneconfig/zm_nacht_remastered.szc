@@ -1,0 +1,110 @@
+{
+ "Name" : "zm_nacht_remastered",
+ "GameMode" : "mpl",
+ "IsCommon" : false,
+ "Parent" : "",
+ "Overlay" : "",
+ "IsStandalone" : true,
+ "IsProduction" : false,
+ "IsShipped" : false,
+ "DontDeploy" : false,
+ "NoStreamBank" : false,
+ "MapFile" : "",
+ "Standalone" : true,
+ "Builds" : [ "T7" ],
+ "Sources" : [
+ {
+ "Type" : "ALIAS",
+ "Name" : "user_aliases",
+ "Filename" : "user_aliases.csv",
+ "Specs" : [ ] 
+},
+{
+	"Type" : "ALIAS",
+	"Name" : "ray_phdflopper",
+	"Filename" : "ray_phdflopper.csv",
+	"Specs" : [ ] 
+},
+{
+ "Type" : "ALIAS",
+ "Name" : "flamethrower",
+ "Filename" : "flamethrower.csv",
+ "Specs" : [ ] 
+},
+
+{
+ "Type" : "ALIAS",
+ "Name" : "t4_bolt_action_sounds",
+ "Filename" : "t4_bolt_action_sounds.csv",
+ "Specs" : [ ] 
+},
+{
+ "Type" : "ALIAS",
+ "Name" : "t4_lmg_sounds",
+ "Filename" : "t4_lmg_sounds.csv",
+ "Specs" : [ ] 
+},
+{
+ "Type" : "ALIAS",
+ "Name" : "t4_rifle_sounds",
+ "Filename" : "t4_rifle_sounds.csv",
+ "Specs" : [ ] 
+},
+{
+ "Type" : "ALIAS",
+ "Name" : "t4_shotguns_sounds",
+ "Filename" : "t4_shotguns_sounds.csv",
+ "Specs" : [ ] 
+},
+{
+ "Type" : "ALIAS",
+ "Name" : "t4_smg_sounds",
+ "Filename" : "t4_smg_sounds.csv",
+ "Specs" : [ ] 
+},
+{
+"Type" : "ALIAS",
+"Name" : "classic_rounds",
+"Filename" : "classic_rounds.csv",
+"Specs" : [ ] 
+},
+{
+ "Type" : "ALIAS",
+ "Name" : "custom_barriers",
+ "Filename" : "custom_barriers.csv",
+ "Specs" : [ ] 
+},
+{
+ "Type" : "ALIAS",
+ "Name" : "graffitis_aliases",
+ "Filename" : "graffitis_aliases.csv",
+ "Specs" : [ ] 
+},
+{
+ "Type" : "AMBIENT",
+ "Name" : "ambient_mod",
+ "Filename" : "ambient_mod.csv",
+ "Specs" : [
+  "mpl_mod"
+  ]
+},
+{
+ "Type" : "ALIAS",
+ "Name" : "t7_weapons_dlc",
+ "Filename" : "t7_weapons_dlc.csv",
+ "Specs" : [ ] 
+},
+{
+	"Type" : "ALIAS",
+	"Name" : "zm_waw_vox",
+	"Filename" : "zm_waw_vox.csv",
+	"Specs" : [ ] 
+},
+{
+ "Type" : "ALIAS",
+ "Name" : "mystifiedtulips_essentials",
+ "Filename" : "mystifiedtulips_essentials.csv",
+ "Specs" : [ ] 
+},
+]
+}

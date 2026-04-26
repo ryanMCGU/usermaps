@@ -1,0 +1,53 @@
+{
+ "Name" : "zm_tall_building",
+ "GameMode" : "mpl",
+ "IsCommon" : false,
+ "Parent" : "",
+ "Overlay" : "",
+ "IsStandalone" : true,
+ "IsProduction" : false,
+ "IsShipped" : false,
+ "DontDeploy" : false,
+ "NoStreamBank" : false,
+ "MapFile" : "",
+ "Standalone" : true,
+ "Builds" : [ "T7" ],
+ "Sources" : [
+ {
+ "Type" : "ALIAS",
+ "Name" : "user_aliases",
+ "Filename" : "user_aliases.csv",
+ "Specs" : [ ] 
+},
+{
+ "Type" : "ALIAS",
+ "Name" : "mystifiedtulips_essentials",
+ "Filename" : "mystifiedtulips_essentials.csv",
+ "Specs" : [ ] 
+},
+
+{
+ "Type" : "ALIAS",
+ "Name" : "t7_weapons_dlc",
+ "Filename" : "t7_weapons_dlc.csv",
+ "Specs" : [ ] 
+},
+
+
+{
+ "Type" : "AMBIENT",
+ "Name" : "ambient_mod",
+ "Filename" : "ambient_mod.csv",
+ "Specs" : [
+  "mpl_mod"
+  ]
+},
+{
+ "Type" : "ALIAS",
+ "Name" : "t4_betty_sounds",
+ "Filename" : "t4_betty_sounds.csv",
+ "Specs" : [ ] 
+},
+
+]
+}

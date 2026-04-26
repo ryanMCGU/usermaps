@@ -1,0 +1,78 @@
+return 19001000
+^1Material 'mc/mtl_p7_zm_ver_farm_tools_metal_01' (mc/lit_micro_tile_blend_plus): Image 'i_mtl_p7_zm_ver_farm_tools_01_m' (mixMap) has a mismatched usage ( 'specularMask' expected: [revealMap] )
+  material:mc/mtl_p7_zm_ver_farm_tools_metal_01
+    xmodel:p7_zm_ver_farm_tools_can_watering
+      col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^1material 'mc/mtl_p7_zm_ver_farm_tools_metal_01' using technique 'mc/lit_micro_tile_blend_plus#e6142445.gbuffer' from techniqueSet 'mc/lit_micro_tile_blend_plus#e6142445' doesn't expose a 'mixMap' texture. Material textures:
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_p7_zm_ver_farm_tools_metal_01
+      xmodel:p7_zm_ver_farm_tools_can_watering
+        col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^1    0: aoMap $white_ao
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_p7_zm_ver_farm_tools_metal_01
+      xmodel:p7_zm_ver_farm_tools_can_watering
+        col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^1    1: thermalHeatmap $gray_32_one_channel
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_p7_zm_ver_farm_tools_metal_01
+      xmodel:p7_zm_ver_farm_tools_can_watering
+        col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^1    2: detailMap1 i_t7_micro_metal_rust_01_n
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_p7_zm_ver_farm_tools_metal_01
+      xmodel:p7_zm_ver_farm_tools_can_watering
+        col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^1    3: detailMap2 i_t7_micro_plaster_01_n
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_p7_zm_ver_farm_tools_metal_01
+      xmodel:p7_zm_ver_farm_tools_can_watering
+        col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^1    4: glossMapDetail2 i_t7_micro_metal_bare_scuffed_01_g
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_p7_zm_ver_farm_tools_metal_01
+      xmodel:p7_zm_ver_farm_tools_can_watering
+        col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^1    5: normalMap i_mtl_p7_zm_ver_farm_tools_01_n
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_p7_zm_ver_farm_tools_metal_01
+      xmodel:p7_zm_ver_farm_tools_can_watering
+        col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^1    6: glossMap i_t7_micro_metal_rust_01_g
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_p7_zm_ver_farm_tools_metal_01
+      xmodel:p7_zm_ver_farm_tools_can_watering
+        col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^1    7: colorMapDetail2 i_t7_micro_metal_painted_01_c
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_p7_zm_ver_farm_tools_metal_01
+      xmodel:p7_zm_ver_farm_tools_can_watering
+        col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^1    8: colorMap i_t7_micro_metal_rust_01_c
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/mtl_p7_zm_ver_farm_tools_metal_01
+      xmodel:p7_zm_ver_farm_tools_can_watering
+        col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^1The model (p7_zm_ver_farm_tools_can_watering) uses material (mtl_p7_zm_ver_farm_tools_metal_01) but there is no techset for surface 0
+  xmodel:p7_zm_ver_farm_tools_can_watering
+    col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^1The model (p7_zm_ver_farm_tools_can_watering) uses material (mtl_p7_zm_ver_farm_tools_metal_01) but there is no techset for surface 0
+  xmodel:p7_zm_ver_farm_tools_can_watering
+    col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^1The model (p7_zm_ver_farm_tools_can_watering) uses material (mtl_p7_zm_ver_farm_tools_metal_01) but there is no techset for surface 0
+  xmodel:p7_zm_ver_farm_tools_can_watering
+    col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^1The model (p7_zm_ver_farm_tools_can_watering) uses material (mtl_p7_zm_ver_farm_tools_metal_01) but there is no techset for surface 0
+  xmodel:p7_zm_ver_farm_tools_can_watering
+    col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^1The model (p7_zm_ver_farm_tools_can_watering) uses material (mtl_p7_zm_ver_farm_tools_metal_01) but there is no techset for surface 0
+  xmodel:p7_zm_ver_farm_tools_can_watering
+    col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^1The model (p7_zm_ver_farm_tools_can_watering) uses material (mtl_p7_zm_ver_farm_tools_metal_01) but there is no techset for surface 0
+  xmodel:p7_zm_ver_farm_tools_can_watering
+    col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^1ERROR: [worldspawn vbloom] could not open 'grades/none.lvi'
+  col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^1ERROR: [worldspawn vcolor] could not open 'grades/none.lvi'
+  col_map:maps/zm/zm_swamp_remastered.d3dbsp
+^3Found 1 bad bulletmeshes, dumped to C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\/usermaps\zm_swamp_remastered/zone_source/all/assetinfo/zm_swamp_remastered_bulletreport.csv file.

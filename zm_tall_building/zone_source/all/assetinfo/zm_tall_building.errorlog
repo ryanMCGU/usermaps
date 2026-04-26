@@ -1,0 +1,109 @@
+return 5028000
+^1ERROR: [worldspawn vbloom] could not open 'grades/none.lvi'
+  col_map:maps/zm/zm_tall_building.d3dbsp
+^1ERROR: [worldspawn vcolor] could not open 'grades/none.lvi'
+  col_map:maps/zm/zm_tall_building.d3dbsp
+^1ERROR: Material gfx_rain_01_pcloud_em_oo was not found in gdtDB
+  material:ec/gfx_rain_01_pcloud_em_oo
+    fx:custom/env/fx_rain_player_z_heavy
+      csv:zone_source/zm_tall_building.zone
+^1ERROR: Material gfx_rain_02_pcloud_em_oo was not found in gdtDB
+  material:ec/gfx_rain_02_pcloud_em_oo
+    fx:custom/env/fx_rain_player_z_heavy
+      csv:zone_source/zm_tall_building.zone
+^1ERROR: Material gfx_rain_03_pcloud_em_oo was not found in gdtDB
+  material:ec/gfx_rain_03_pcloud_em_oo
+    fx:custom/env/fx_rain_player_z_heavy
+      csv:zone_source/zm_tall_building.zone
+^3DROPPED VERTS. 2 warnings encountered while processing xmodel 'p7_ac_unit_large_lod0'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_ac_unit_large_lod0_f0_s1.000000_geo_rigid_O55ITRD7NPIATFUUS45UJQGHWF.log
+  xmodel:p7_ac_unit_large
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^3DROPPED VERTS. 1 warnings encountered while processing xmodel 'p7_ac_unit_large_lod0'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_ac_unit_large_lod0_f2156_s1.000000_geo_rigid_4Z7RRTMPOT3LD3ETAZ7NO67E75.log
+  xmodel:p7_ac_unit_large
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^3DROPPED VERTS. 24 warnings encountered while processing xmodel 'p7_sin_crane_tower_pole_lod0'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_sin_crane_tower_pole_lod0_f0_s1.000000_geo_rigid_HE7GPEEHYECHTR2S2JYP22CBWX.log
+  xmodel:p7_sin_crane_tower_pole
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^3DROPPED VERTS. 12 warnings encountered while processing xmodel 'p7_sin_crane_tower_pole_col'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_sin_crane_tower_pole_col_f0_s1.000000_geo_rigid_OPKXSZ6EM7URG4FFUSRP3KQUQW.log
+  xmodel:p7_sin_crane_tower_pole
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^3DROPPED VERTS. 12 warnings encountered while processing xmodel 'p7_sin_crane_tower_pole_col'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_sin_crane_tower_pole_col_f0_s1.000000_collision_rigid_7Z4JV7XXL4FA5PUIEZS2WFFAF7.log
+  xmodel:p7_sin_crane_tower_pole
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^3DROPPED VERTS. 24 warnings encountered while processing xmodel 'p7_sin_crane_tower_pole_lod4'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_sin_crane_tower_pole_lod4_f0_s1.000000_geo_rigid_KH3D6SAGLSDNZD7RQ3ZF66363M.log
+  xmodel:p7_sin_crane_tower_pole
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^3DROPPED VERTS. 24 warnings encountered while processing xmodel 'p7_sin_crane_tower_pole_lod3'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_sin_crane_tower_pole_lod3_f0_s1.000000_geo_rigid_D6YEVZHJIYP2I3GYIFDWMXQ242.log
+  xmodel:p7_sin_crane_tower_pole
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^3DROPPED VERTS. 24 warnings encountered while processing xmodel 'p7_sin_crane_tower_pole_lod2'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_sin_crane_tower_pole_lod2_f0_s1.000000_geo_rigid_2VNIA22KPUGZ4USUZYTILDTZTE.log
+  xmodel:p7_sin_crane_tower_pole
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^3DROPPED VERTS. 24 warnings encountered while processing xmodel 'p7_sin_crane_tower_pole_lod1'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_sin_crane_tower_pole_lod1_f0_s1.000000_geo_rigid_LHZUJJJAN6QMS2BRDB4EMT6L65.log
+  xmodel:p7_sin_crane_tower_pole
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^332 warnings encountered while processing xmodel 'p7_sin_crane_tower_arm_lod0'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_sin_crane_tower_arm_lod0_f0_s1.000000_geo_rigid_JAD7XWZKZH4JFFJZFGQXUZRDRD.log
+  xmodel:p7_sin_crane_tower_arm
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^38 warnings encountered while processing xmodel 'p7_sin_crane_tower_arm_lod4'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_sin_crane_tower_arm_lod4_f0_s1.000000_geo_rigid_RTKY7HKK5MNOQ2FN2YXYMSTHTW.log
+  xmodel:p7_sin_crane_tower_arm
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^332 warnings encountered while processing xmodel 'p7_sin_crane_tower_arm_lod3'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_sin_crane_tower_arm_lod3_f0_s1.000000_geo_rigid_LD6HSP53YOSTY4KUYT2MNGYL4C.log
+  xmodel:p7_sin_crane_tower_arm
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^332 warnings encountered while processing xmodel 'p7_sin_crane_tower_arm_lod2'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_sin_crane_tower_arm_lod2_f0_s1.000000_geo_rigid_KXSYBXO4N7CYKAZ336PQCVPPPU.log
+  xmodel:p7_sin_crane_tower_arm
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^332 warnings encountered while processing xmodel 'p7_sin_crane_tower_arm_lod1'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_sin_crane_tower_arm_lod1_f0_s1.000000_geo_rigid_V4ZYNUQIP67CQ6D5QXLJOIFFVE.log
+  xmodel:p7_sin_crane_tower_arm
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^340 warnings encountered while processing xmodel 'p7_sin_crane_tower_hook_lod0'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_sin_crane_tower_hook_lod0_f0_s1.000000_geo_rigid_BTDJESC3MYQUGGEH5RCKVBJRJ4.log
+  xmodel:p7_sin_crane_tower_hook
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^340 warnings encountered while processing xmodel 'p7_sin_crane_tower_hook_lod4'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_sin_crane_tower_hook_lod4_f0_s1.000000_geo_rigid_65ZX3MZIQNN3YQMW4JMU36OF6X.log
+  xmodel:p7_sin_crane_tower_hook
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^340 warnings encountered while processing xmodel 'p7_sin_crane_tower_hook_lod3'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_sin_crane_tower_hook_lod3_f0_s1.000000_geo_rigid_XRY4CKZK2REL7JOJ5DFLUYYRYL.log
+  xmodel:p7_sin_crane_tower_hook
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^340 warnings encountered while processing xmodel 'p7_sin_crane_tower_hook_lod1'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_sin_crane_tower_hook_lod1_f0_s1.000000_geo_rigid_M72CQNOBMCWXHRITUD3YI67T7G.log
+  xmodel:p7_sin_crane_tower_hook
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^340 warnings encountered while processing xmodel 'p7_sin_crane_tower_hook_lod2'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_sin_crane_tower_hook_lod2_f0_s1.000000_geo_rigid_HFQXYDO2VJYCHWUWGAW6D4AOUK.log
+  xmodel:p7_sin_crane_tower_hook
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^38 warnings encountered while processing xmodel 'p7_sin_crane_tower_trolley_lod5'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\p7_sin_crane_tower_trolley_lod5_f0_s1.000000_geo_rigid_37MPDQ32V22ZAZO5G4IERTAOIC.log
+  xmodel:p7_sin_crane_tower_trolley
+    col_map:maps/zm/zm_tall_building.d3dbsp
+^3effect 'custom/env/fx_rain_player_z_heavy' segment '11rain_pcloud_0':
+material ec/gfx_rain_01_pcloud_em_oo has an invalid atlas, 0 x 0
+  fx:custom/env/fx_rain_player_z_heavy
+    csv:zone_source/zm_tall_building.zone
+^3effect 'custom/env/fx_rain_player_z_heavy' segment '11rain_pcloud_1':
+material ec/gfx_rain_01_pcloud_em_oo has an invalid atlas, 0 x 0
+  fx:custom/env/fx_rain_player_z_heavy
+    csv:zone_source/zm_tall_building.zone
+^3effect 'custom/env/fx_rain_player_z_heavy' segment '11rain_pcloud_2':
+material ec/gfx_rain_01_pcloud_em_oo has an invalid atlas, 0 x 0
+  fx:custom/env/fx_rain_player_z_heavy
+    csv:zone_source/zm_tall_building.zone
+^3effect 'custom/env/fx_rain_player_z_heavy' segment '11rain_pcloud_3':
+material ec/gfx_rain_01_pcloud_em_oo has an invalid atlas, 0 x 0
+  fx:custom/env/fx_rain_player_z_heavy
+    csv:zone_source/zm_tall_building.zone
+^3effect 'custom/env/fx_rain_player_z_heavy' segment '11rain_pcloud_0':
+material ec/gfx_rain_01_pcloud_em_oo has an invalid atlas, 0 x 0
+  fx:custom/env/fx_rain_player_z_heavy
+    csv:zone_source/zm_tall_building.zone
+^3effect 'custom/env/fx_rain_player_z_heavy' segment '11rain_pcloud_1':
+material ec/gfx_rain_01_pcloud_em_oo has an invalid atlas, 0 x 0
+  fx:custom/env/fx_rain_player_z_heavy
+    csv:zone_source/zm_tall_building.zone
+^3effect 'custom/env/fx_rain_player_z_heavy' segment '11rain_pcloud_2':
+material ec/gfx_rain_01_pcloud_em_oo has an invalid atlas, 0 x 0
+  fx:custom/env/fx_rain_player_z_heavy
+    csv:zone_source/zm_tall_building.zone
+^3effect 'custom/env/fx_rain_player_z_heavy' segment '11rain_pcloud_3':
+material ec/gfx_rain_01_pcloud_em_oo has an invalid atlas, 0 x 0
+  fx:custom/env/fx_rain_player_z_heavy
+    csv:zone_source/zm_tall_building.zone

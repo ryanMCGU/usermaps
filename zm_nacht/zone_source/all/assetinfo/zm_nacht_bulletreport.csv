@@ -1,0 +1,26 @@
+xmodel,avgArea (min 50.0),triCount (max 0),dimX,dimY,dimZ,volume,refs
+p7_light_spotlight_generator_02,16.33,642,33.52,58.80,115.97,228578.11,3
+p7_barrel_vintage_wood_curvy_rusty_wet,8.70,394,26.53,26.62,32.50,22947.62,7
+p7_vld_telephone_pole_01,47.82,346,82.78,105.50,407.72,3560812.50,3
+p7_sin_patio_chair_worn,15.43,296,35.02,35.15,43.33,53334.88,9
+p7_barbed_wire,12.32,188,109.75,29.56,29.74,96486.59,10
+p7_zm_zod_lantern_metal_01,30.44,152,27.58,26.89,38.99,28908.63,2
+p7_zm_der_light_shade,8.29,146,24.20,24.20,11.00,6442.89,13
+p7_zm_der_light_spot_housing_anim,12.60,126,25.78,24.53,25.97,16420.30,2
+p7_zm_der_light_vacuum_tube,12.08,88,11.00,13.54,24.40,3635.56,2
+p7_light_hurricane_lamp,15.71,60,12.83,11.50,26.46,3905.17,2
+p7_ammo_pouch_g43,3.69,44,9.47,3.58,5.74,194.49,2
+c_zom_der_zombie_helmet1,7.07,32,10.01,10.56,9.27,979.39,1
+c_zom_zod_zombie_fem_body1_g_rarmspawn,1.62,16,10.08,4.44,4.24,189.80,1
+p7_gib_chunk_meat_01,4.31,16,2.61,7.35,8.75,167.67,1
+p7_gib_chunk_meat_02,3.93,16,4.00,7.68,5.48,168.48,1
+p7_gib_chunk_flesh_01,2.48,16,4.98,1.51,5.99,45.20,1
+p7_gib_chunk_flesh_02,1.75,16,1.42,5.32,4.56,34.36,1
+p7_gib_chunk_flesh_03,1.63,16,3.89,1.82,4.60,32.62,1
+p7_gib_chunk_bone_01,0.66,16,1.93,2.13,4.84,19.91,1
+p7_gib_chunk_bone_02,0.91,16,2.83,3.32,2.05,19.34,1
+p7_gib_chunk_bone_03,1.07,16,2.66,4.52,3.11,37.40,1
+c_zom_zod_zombie_fem_body1_g_rlegspawn,8.35,16,11.92,8.81,4.88,512.85,1
+p7_gib_chunk_meat_03,4.97,15,3.14,6.78,7.21,153.74,1
+c_zom_zod_zombie_fem_body1_g_larmspawn,0.75,15,10.08,4.44,4.24,189.80,1
+c_zom_zod_zombie_fem_body1_g_llegspawn,8.84,15,11.92,8.81,4.88,512.85,1

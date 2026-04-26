@@ -1,0 +1,25 @@
+return 7001000
+^1Effect 'fx/zombie/t6_wallbuys/fxt_zmb_wep_wallbuy_tazer_blue.efx' not found
+  fx:zombie/t6_wallbuys/fxt_zmb_wep_wallbuy_tazer_blue
+    col_map:maps/zm/zm_ui3dtest.d3dbsp
+^1Effect 'fx/zombie/t6_wallbuys/fxt_zmb_wep_wallbuy_tazer_blue.efx' not found
+  gfx_map:maps/zm/zm_ui3dtest.d3dbsp
+^1ERROR: [worldspawn vbloom] could not open 'grades/none.lvi'
+  col_map:maps/zm/zm_ui3dtest.d3dbsp
+^1ERROR: [worldspawn vcolor] could not open 'grades/none.lvi'
+  col_map:maps/zm/zm_ui3dtest.d3dbsp
+^1Effect 'fx/weapon/_t6/tazer_knuckles/fx_tazer_knuckles_impact_zmb.efx' not found
+  fx:weapon/_t6/tazer_knuckles/fx_tazer_knuckles_impact_zmb
+    entityfximpacts:t6_tazer_entity_fx
+      xanim:t6_wpn_tazer_knuckles_knuckles_swipe
+        weapon:t6_tazer_knuckles_zm
+          csv:zone_source/zm_ui3dtest.zone
+^1Effect 'fx/weapon/_t6/tazer_knuckles/fx_tazer_knuckles_anim_zmb.efx' not found
+  fx:weapon/_t6/tazer_knuckles/fx_tazer_knuckles_anim_zmb
+    xanim:t6_wpn_tazer_knuckles_knuckles_first_raise_zm
+      weapon:t6_tazer_knuckles_flourish_zm
+        csv:zone_source/zm_ui3dtest.zone
+^1ERROR: Could not open 'scripts/zm/_zm_weap_tazer.csc'
+  scriptparsetree:scripts/zm/_zm_weap_tazer.csc
+    csv:zone_source/zm_ui3dtest.zone
+^3Found 20 bad bulletmeshes, dumped to C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\/usermaps\zm_ui3dtest/zone_source/all/assetinfo/zm_ui3dtest_bulletreport.csv file.

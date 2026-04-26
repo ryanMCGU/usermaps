@@ -1,0 +1,4 @@
+return 2000
+^3Found 1 bad nodes, 0 useless nodes, dumped to C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\/usermaps\zm_verrukt_remastered/zone_source/all/assetinfo/zm_verrukt_remastered.badnodes file.
+  game_map:maps/zm/zm_verrukt_remastered.d3dbsp
+^3Found 24 bad bulletmeshes, dumped to C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\/usermaps\zm_verrukt_remastered/zone_source/all/assetinfo/zm_verrukt_remastered_bulletreport.csv file.

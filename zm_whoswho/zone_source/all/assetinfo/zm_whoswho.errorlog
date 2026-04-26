@@ -1,0 +1,18 @@
+return 4001000
+^1Character pbt_wawdempsey has an invalid helmet style at position 1
+  playerbodytype:pbt_wawdempsey
+    customizationtable:zm_character_customization
+      csv:zone_source/zm_whoswho.zone
+^1Character pbt_wawnikolai has an invalid helmet style at position 1
+  playerbodytype:pbt_wawnikolai
+    customizationtable:zm_character_customization
+      csv:zone_source/zm_whoswho.zone
+^1Character pbt_wawrichtofen has an invalid helmet style at position 1
+  playerbodytype:pbt_wawrichtofen
+    customizationtable:zm_character_customization
+      csv:zone_source/zm_whoswho.zone
+^1Character pbt_wawtakeo has an invalid helmet style at position 1
+  playerbodytype:pbt_wawtakeo
+    customizationtable:zm_character_customization
+      csv:zone_source/zm_whoswho.zone
+^3Found 29 bad bulletmeshes, dumped to C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\/usermaps\zm_whoswho/zone_source/all/assetinfo/zm_whoswho_bulletreport.csv file.

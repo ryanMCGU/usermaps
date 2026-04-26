@@ -1,0 +1,16 @@
+material,mc/mtl_c_gen_gib_alpha
+material,mc/mtl_c_gen_gib_gore_arm_right_a
+material,mc/mtl_c_gen_gib_stump
+techset,mc/lit_transition#e6142445
+image,$white_gloss
+image,i_c_gen_char_c
+image,i_c_gen_char_g
+image,i_c_gen_char_n
+image,i_c_gen_gib_alpha_jpn_safe_c
+image,i_c_gen_gib_stump_ao
+image,i_c_gen_gib_stump_g
+image,i_c_gen_gib_stump_jpn_safe_c
+image,i_c_gen_gib_stump_n
+image,i_c_gen_reveal_1k_rec_horiz_r
+sound,zm_waw_test
+keyvaluepairs,zm_waw_test

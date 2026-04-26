@@ -1,0 +1,49 @@
+{
+ "Name" : "zm_ui3dtest",
+ "GameMode" : "mpl",
+ "IsCommon" : false,
+ "Parent" : "",
+ "Overlay" : "",
+ "IsStandalone" : true,
+ "IsProduction" : false,
+ "IsShipped" : false,
+ "DontDeploy" : false,
+ "NoStreamBank" : false,
+ "MapFile" : "",
+ "Standalone" : true,
+ "Builds" : [ "T7" ],
+ "Sources" : [
+ {
+ "Type" : "ALIAS",
+ "Name" : "user_aliases",
+ "Filename" : "user_aliases.csv",
+ "Specs" : [ ] 
+},
+{
+ "Type" : "AMBIENT",
+ "Name" : "ambient_mod",
+ "Filename" : "ambient_mod.csv",
+ "Specs" : [
+  "mpl_mod"
+  ]
+},
+{
+ "Type" : "ALIAS",
+ "Name" : "t6_jetgun",
+ "Filename" : "t6_jetgun.csv",
+ "Specs" : [ ] 
+},
+{
+ "Type" : "ALIAS",
+ "Name" : "freezegun_sounds",
+ "Filename" : "freezegun_sounds.csv",
+ "Specs" : [ ] 
+},
+{
+ "Type" : "ALIAS",
+ "Name" : "perk_tombstone",
+ "Filename" : "perk_tombstone.csv",
+ "Specs" : [ ] 
+},
+]
+}

@@ -1,0 +1,290 @@
+return 116006000
+^1ERROR: image 'i_t7_zm_ver_decal_wall_fillet_c' is missing
+  image:i_t7_zm_ver_decal_wall_fillet_c
+    material:mc/t7_zm_ver_decal_wall_fillet
+      xmodel:zm_moon_map_5
+        col_map:maps/zm/zm_area51_survival.d3dbsp
+^1Material t7_zm_ver_decal_wall_fillet: could not load image i_t7_zm_ver_decal_wall_fillet_c
+  material:mc/t7_zm_ver_decal_wall_fillet
+    xmodel:zm_moon_map_5
+      col_map:maps/zm/zm_area51_survival.d3dbsp
+^1material 'mc/t7_zm_ver_decal_wall_fillet' using technique 'mc/lit_decal#e6142445.gbuffer' from techniqueSet 'mc/lit_decal#e6142445' doesn't expose a 'colorMap' texture. Material textures:
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/t7_zm_ver_decal_wall_fillet
+      xmodel:zm_moon_map_5
+        col_map:maps/zm/zm_area51_survival.d3dbsp
+^1    0: tintMask $white_reveal
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/t7_zm_ver_decal_wall_fillet
+      xmodel:zm_moon_map_5
+        col_map:maps/zm/zm_area51_survival.d3dbsp
+^1    1: thermalHeatmap $gray_32_one_channel
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/t7_zm_ver_decal_wall_fillet
+      xmodel:zm_moon_map_5
+        col_map:maps/zm/zm_area51_survival.d3dbsp
+^1    2: normalMap $identitynormalmap
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/t7_zm_ver_decal_wall_fillet
+      xmodel:zm_moon_map_5
+        col_map:maps/zm/zm_area51_survival.d3dbsp
+^1ERROR: image 'i_t7_decal_grunge_stain_dark_01_c' is missing
+  image:i_t7_decal_grunge_stain_dark_01_c
+    material:mc/t7_decal_grunge_stain_dark_01
+      xmodel:zm_moon_map_5
+        col_map:maps/zm/zm_area51_survival.d3dbsp
+^1Material t7_decal_grunge_stain_dark_01: could not load image i_t7_decal_grunge_stain_dark_01_c
+  material:mc/t7_decal_grunge_stain_dark_01
+    xmodel:zm_moon_map_5
+      col_map:maps/zm/zm_area51_survival.d3dbsp
+^1material 'mc/t7_decal_grunge_stain_dark_01' using technique 'mc/lit#e6142445.gbuffer' from techniqueSet 'mc/lit#e6142445' doesn't expose a 'colorMap' texture. Material textures:
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/t7_decal_grunge_stain_dark_01
+      xmodel:zm_moon_map_5
+        col_map:maps/zm/zm_area51_survival.d3dbsp
+^1    0: thermalHeatmap $gray_32_one_channel
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/t7_decal_grunge_stain_dark_01
+      xmodel:zm_moon_map_5
+        col_map:maps/zm/zm_area51_survival.d3dbsp
+^1    1: normalMap $identitynormalmap
+  MATERIAL_DRAW_METHOD:ship
+    material:mc/t7_decal_grunge_stain_dark_01
+      xmodel:zm_moon_map_5
+        col_map:maps/zm/zm_area51_survival.d3dbsp
+^1The model (zm_moon_map_5) uses material (t7_zm_ver_decal_wall_fillet) but there is no techset for surface 0
+  xmodel:zm_moon_map_5
+    col_map:maps/zm/zm_area51_survival.d3dbsp
+^1The model (zm_moon_map_5) uses material (t7_decal_grunge_stain_dark_01) but there is no techset for surface 71
+  xmodel:zm_moon_map_5
+    col_map:maps/zm/zm_area51_survival.d3dbsp
+^1Could not load mesh '_midgetblaster\props\p7_mp_cryogen\p7_cry_vents_lobby_01_hitbox.xmodel_bin' for xmodel 'p7_cry_vents_lobby_01'
+  xmodel:p7_cry_vents_lobby_01
+    col_map:maps/zm/zm_area51_survival.d3dbsp
+^1Could not load mesh '_midgetblaster\props\p7_mp_cryogen\p7_cry_vents_lobby_single\p7_cry_vents_lobby_single_hitbox.xmodel_bin' for xmodel 'p7_cry_vents_lobby_single'
+  xmodel:p7_cry_vents_lobby_single
+    col_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_01' at (214 -1492 81), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_01' at (-287 -1492 81), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-3043 2066 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-2787 2062 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-2787 1607 187), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-3043 1609 187), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-2787 1678 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (792 1544 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-2787 1991 187), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-2787 1918 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-3043 1682 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-3043 1922 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-3043 1993 187), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1560 1544 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1320 1544 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1176 1544 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (936 1544 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (863 1544 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1631 1544 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1704 1544 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1944 1544 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (2015 1544 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (2088 1544 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-1389 -440 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-1385 -184 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-1316 -440 187), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-1245 -440 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-1058 455 163), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-1241 -184 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-1314 -184 187), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-2787 766 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-3043 770 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1172 648 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (932 648 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-1001 -184 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (861 648 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (788 648 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-1005 -440 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-932 -440 187), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-930 -184 187), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-861 -440 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-857 -184 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1172 1288 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (932 1288 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (861 1288 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (788 1288 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-2787 839 187), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-2787 910 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (792 904 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (863 904 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (936 904 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-3043 841 187), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-3043 914 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-2787 1223 187), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-3043 1154 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-2787 1150 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-2787 1534 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-2787 1294 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-3043 1225 187), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-3043 1298 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (-3043 1538 91), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (2084 1288 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (2013 1288 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1940 1288 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1700 1288 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1631 904 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1704 904 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1944 904 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (2015 904 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (2088 904 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1245 648 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1176 904 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1247 904 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1320 904 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1560 904 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1629 1288 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1556 1288 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1316 1288 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1247 1544 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1245 1288 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1518 -2846 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1518 -2775 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1646 -2622 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1518 -2702 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1646 -2478 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1646 -2551 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1629 648 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1556 648 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1316 648 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (2084 648 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (2013 648 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1902 -2482 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1940 648 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1700 648 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1774 -2777 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1774 -2706 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1902 -2553 179), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1774 -2850 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1bad static model 'p7_cry_vents_lobby_single' at (1902 -2626 83), using default_static_model
+  gfx_map:maps/zm/zm_area51_survival.d3dbsp
+^1ERROR: [worldspawn vbloom] could not open 'grades/none.lvi'
+  col_map:maps/zm/zm_area51_survival.d3dbsp
+^1ERROR: [worldspawn vcolor] could not open 'grades/none.lvi'
+  col_map:maps/zm/zm_area51_survival.d3dbsp
+^3DROPPED VERTS. 498 warnings encountered while processing xmodel 'whole_moon'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\whole_moon_f0_s1.000000_geo_rigid_XFDX2JUD5TDEWZ3FQBBDP4JVZ6.log
+  xmodel:zm_moon_map_5
+    col_map:maps/zm/zm_area51_survival.d3dbsp
+^3DROPPED VERTS. 498 warnings encountered while processing xmodel 'whole_moon'. Log can be found here: C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\share\assetconvert\\xmesh\v6\whole_moon_f0_s1.000000_collision_rigid_GTVJ5P5Q2QSVNKKIAKCWCT4B4X.log
+  xmodel:zm_moon_map_5
+    col_map:maps/zm/zm_area51_survival.d3dbsp
+^3GetFileAttributesEx(C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\_midgetblaster\props\p7_zm_theater\_images\i_t7_zm_ver_decal_wall_fillet_c.png) failed: The system cannot find the file specified.
+  image:i_t7_zm_ver_decal_wall_fillet_c
+    material:mc/t7_zm_ver_decal_wall_fillet
+      xmodel:zm_moon_map_5
+        col_map:maps/zm/zm_area51_survival.d3dbsp
+^3GetFileAttributesEx(C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\_midgetblaster\props\p7_zm_genesis\_images\i_t7_decal_grunge_stain_dark_01_c.png) failed: The system cannot find the file specified.
+  image:i_t7_decal_grunge_stain_dark_01_c
+    material:mc/t7_decal_grunge_stain_dark_01
+      xmodel:zm_moon_map_5
+        col_map:maps/zm/zm_area51_survival.d3dbsp
+^3GetFileAttributesEx(C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\_midgetblaster\props\p7_mp_cryogen\p7_cry_vents_lobby_01_hitbox.xmodel_bin) failed: The system cannot find the file specified.
+  xmodel:p7_cry_vents_lobby_01
+    col_map:maps/zm/zm_area51_survival.d3dbsp
+^3GetFileAttributesEx(C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\model_export\_midgetblaster\props\p7_mp_cryogen\p7_cry_vents_lobby_single\p7_cry_vents_lobby_single_hitbox.xmodel_bin) failed: The system cannot find the file specified.
+  xmodel:p7_cry_vents_lobby_single
+    col_map:maps/zm/zm_area51_survival.d3dbsp

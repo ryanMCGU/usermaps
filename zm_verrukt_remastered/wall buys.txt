@@ -1,0 +1,47 @@
+- Jugg - 
+1. M14
+2. Olympia
+3. Grenade
+
+- Double -
+1. MP-40
+2. Stakeout
+3. Grenade
+4. Claymore
+
+- Bathroom -
+1. STG-44
+2. MP5k
+
+- Power -
+1. Bowie
+
+- Revive -
+1. M1 Garand
+2. Double Barrel
+3. BAR Bipod
+
+- Mule -
+1. Thompson
+2. M1A1
+3. Grenade
+
+- Above Mule -
+1. Trench Gun
+2. Grease Gun
+3. Claymore
+
+- Speed -
+1. Double Barrel Sawed Off
+2. Grenade
+
+- Under -
+1. M60e3
+
+- Yard -
+1. M16a1
+2. FG42
+
+- Pack -
+1.Ak47u
+2.PPsh Stick

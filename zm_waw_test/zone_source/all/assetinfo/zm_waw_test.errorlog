@@ -1,0 +1,47 @@
+return 12002000
+^1Could not convert image 'quick_revive_logo_mc'.
+  image:quick_revive_logo_mc
+    material:wc/mtl_quick_revive_logo_mc
+      gfx_map:maps/zm/zm_waw_test.d3dbsp
+^1ERROR: image 'quick_revive_logo_mc' is missing
+  image:quick_revive_logo_mc
+    material:wc/mtl_quick_revive_logo_mc
+      gfx_map:maps/zm/zm_waw_test.d3dbsp
+^1Material mtl_quick_revive_logo_mc: could not load image quick_revive_logo_mc
+  material:wc/mtl_quick_revive_logo_mc
+    gfx_map:maps/zm/zm_waw_test.d3dbsp
+^1material 'wc/mtl_quick_revive_logo_mc' using technique 'wc/lit_emissive_transparent_script#882572b8.unlit' from techniqueSet 'wc/lit_emissive_transparent_script#882572b8' doesn't expose a 'colorMap' texture. Material textures:
+  MATERIAL_DRAW_METHOD:ship
+    material:wc/mtl_quick_revive_logo_mc
+      gfx_map:maps/zm/zm_waw_test.d3dbsp
+^1    0: (null) $camo_base_gloss
+  MATERIAL_DRAW_METHOD:ship
+    material:wc/mtl_quick_revive_logo_mc
+      gfx_map:maps/zm/zm_waw_test.d3dbsp
+^1    1: emissiveMap $white_diffuse
+  MATERIAL_DRAW_METHOD:ship
+    material:wc/mtl_quick_revive_logo_mc
+      gfx_map:maps/zm/zm_waw_test.d3dbsp
+^1    2: thermalHeatmap $gray_32_one_channel
+  MATERIAL_DRAW_METHOD:ship
+    material:wc/mtl_quick_revive_logo_mc
+      gfx_map:maps/zm/zm_waw_test.d3dbsp
+^1    3: normalMap $identitynormalmap
+  MATERIAL_DRAW_METHOD:ship
+    material:wc/mtl_quick_revive_logo_mc
+      gfx_map:maps/zm/zm_waw_test.d3dbsp
+^1    4: (null) $camo_base_mask
+  MATERIAL_DRAW_METHOD:ship
+    material:wc/mtl_quick_revive_logo_mc
+      gfx_map:maps/zm/zm_waw_test.d3dbsp
+^1    5: (null) $camo_base_normal
+  MATERIAL_DRAW_METHOD:ship
+    material:wc/mtl_quick_revive_logo_mc
+      gfx_map:maps/zm/zm_waw_test.d3dbsp
+^1ERROR: [worldspawn vbloom] could not open 'grades/none.lvi'
+  col_map:maps/zm/zm_waw_test.d3dbsp
+^1ERROR: [worldspawn vcolor] could not open 'grades/none.lvi'
+  col_map:maps/zm/zm_waw_test.d3dbsp
+^3material 'wc/mtl_quick_revive_logo_mc' has no techniqueSet, cannot calculate streaming volume
+  gfx_map:maps/zm/zm_waw_test.d3dbsp
+^3Found 2 bad bulletmeshes, dumped to C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\/usermaps\zm_waw_test/zone_source/all/assetinfo/zm_waw_test_bulletreport.csv file.

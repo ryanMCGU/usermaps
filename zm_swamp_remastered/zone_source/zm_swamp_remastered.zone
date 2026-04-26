@@ -1,0 +1,17 @@
+>class,zm_mod_level
+>group,modtools
+
+xmodel,skybox_default_day
+material,luts_t7_default
+	
+// BSP
+col_map,maps/zm/zm_swamp_remastered.d3dbsp
+gfx_map,maps/zm/zm_swamp_remastered.d3dbsp
+
+// Audio
+sound,zm_swamp_remastered
+
+scriptparsetree,scripts/zm/zm_swamp_remastered.gsc
+scriptparsetree,scripts/zm/zm_swamp_remastered.csc
+
+stringtable,gamedata/weapons/zm/zm_levelcommon_weapons.csv //This may be optional, check in your zone if this is present

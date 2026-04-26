@@ -1,0 +1,36 @@
+--SPAWN ROOM--
+M1 Garand
+Doublebarrel
+
+--Main Room--
+Stakeout
+M1A1 Carbine
+
+--First Floor East--
+Thompson
+
+--Tunnel--
+Bar
+
+--Stairs North--
+Grenade
+MPL
+
+--Second Floor West--
+Scoped Kar98k
+STG-44
+
+--Second Floor East--
+M16A1
+
+--Power--
+PM63
+Bowie
+
+--Trench Out--
+Trench Gun
+Ak74u
+
+--Trench In--
+FG42
+Bouncing Betty

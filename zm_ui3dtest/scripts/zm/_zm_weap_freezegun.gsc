@@ -1,0 +1,223 @@
+#using scripts\codescripts\struct;
+
+#using scripts\shared\ai\systems\animation_state_machine_notetracks;
+#using scripts\shared\ai\systems\animation_state_machine_mocomp;
+#using scripts\shared\ai\systems\animation_state_machine_utility;
+#using scripts\shared\ai\systems\behavior_tree_utility;
+#using scripts\shared\ai\systems\blackboard;
+#using scripts\shared\ai\zombie_utility;
+
+#using scripts\shared\array_shared;
+#using scripts\shared\callbacks_shared;
+#using scripts\shared\clientfield_shared;
+#using scripts\shared\math_shared;
+#using scripts\shared\system_shared;
+#using scripts\shared\util_shared;
+
+#using scripts\zm\_util;
+#using scripts\zm\_zm_audio;
+#using scripts\zm\_zm_net;
+#using scripts\zm\_zm_powerups;
+#using scripts\zm\_zm_score;
+#using scripts\zm\_zm_spawner;
+#using scripts\zm\_zm_utility;
+#using scripts\zm\_zm_weapons;
+#using scripts\shared\spawner_shared;
+
+#using scripts\zm\gametypes\_globallogic;
+#using scripts\zm\gametypes\_globallogic_score;
+
+#insert scripts\shared\shared.gsh;
+#insert scripts\shared\version.gsh;
+#insert scripts\zm\_zm_weap_freezegun.gsh;
+
+#namespace zm_weap_freezegun;
+
+function autoexec init_system()
+{
+	system::register( "zm_weap_freezegun", &__init__, &__main__, undefined );
+}
+
+function __init__()
+{
+	level.weaponZMFreezeGun = GetWeapon( "freezegun" );
+	level.weaponZMFreezeGunUpgraded = GetWeapon( "freezegun_upgraded" );
+
+	version_thing = VERSION_DLC5;
+
+	clientfield::register( "actor", "toggle_freezegun_crumple", version_thing, 1, "int" );
+	clientfield::register( "actor", "toggle_freezegun_shatter", version_thing, 1, "int" );
+	clientfield::register( "actor", "toggle_freezegun_iceover", version_thing, 1, "int" );
+}
+
+function __main__()
+{
+	callback::on_connect( &wait_for_freezegun_fired );
+	zm_spawner::register_zombie_death_event_callback( &freezegun_death );
+}
+
+function wait_for_freezegun_fired()
+{
+	self endon( "disconnect" );
+	for(;;) {
+		self waittill( "weapon_fired", weapon );
+		if( weapon == level.weaponZMFreezeGun || weapon == level.weaponZMFreezeGunUpgraded ) {
+			upgraded = ( weapon == level.weaponZMFreezeGunUpgraded ? 1 : 0 );
+			self thread freezegun_fired( upgraded );
+		}
+	}
+}
+
+function freezegun_fired( upgraded )
+{
+	PhysicsExplosionCylinder( self.origin, 600, 240, 1 );
+	self thread affect_ais_freezegun_style( upgraded );
+}
+
+function affect_ais_freezegun_style( upgraded )
+{
+	view_pos = self GetWeaponMuzzlePoint();
+	inner_range = ( upgraded ? FREEZEGUN_INNER_RANGE_UP : FREEZEGUN_INNER_RANGE );
+	inner_range_squared = SQR( inner_range );
+	outer_range = ( upgraded ? FREEZEGUN_OUTER_RANGE_UP : FREEZEGUN_OUTER_RANGE );
+	outer_range_squared = SQR( outer_range );
+	cylinder_radius = ( upgraded ? FREEZEGUN_CYLINDER_RADIUS_UP : FREEZEGUN_CYLINDER_RADIUS );
+	cylinder_radius_squared = SQR( cylinder_radius );
+	zombies = array::get_all_closest( view_pos, GetAITeamArray( level.zombie_team ), undefined, undefined, outer_range * 1.1 );
+	if( !isdefined( zombies ) ) return;
+	forward_dir = self GetWeaponForwardDir();
+	end_pos = view_pos + VectorScale( forward_dir, outer_range );
+	missed = true;
+    for( i=0; i<zombies.size; i++ ) {
+        z = zombies[i];
+        if( !isdefined( z ) || !IsAlive( z ) ) continue;
+        centroid = z GetCentroid();
+        if( DistanceSquared( view_pos, centroid ) > outer_range_squared ) continue;
+        normal = VectorNormalize( centroid - view_pos );
+        dot = VectorDot( forward_dir, normal );
+        if( dot < 0 ) continue;
+        radial_origin = PointOnSegmentNearestToPoint( view_pos, end_pos, centroid );
+        if ( DistanceSquared( centroid, radial_origin ) > cylinder_radius_squared ) continue;
+        if( 0 == z DamageConeTrace( view_pos, self ) ) continue;
+        dist_ratio = ( ( outer_range_squared - DistanceSquared( view_pos, centroid ) ) / ( outer_range_squared - inner_range_squared ) );
+        dist_ratio = math::clamp( dist_ratio, 0, 1 );
+        z thread do_freezegun_damage( upgraded, self, dist_ratio );
+        if( missed ) {
+            self.pers["misses"]--;
+            missed = false;
+        }
+    }
+}
+
+function do_freezegun_damage( upgraded, player, dist_ratio )
+{
+	self endon( "death" );
+	if( !isdefined( self ) || !IsAlive( self ) ) return;
+	DEFAULT( self.freezegun_damage, 0 );
+	DEFAULT( self.marked_for_freeze_death, false );
+	is_dog = ( self.archetype === "zombie_dog" );
+	inner_dmg = ( upgraded ? FREEZEGUN_INNER_DAMAGE_UP : FREEZEGUN_INNER_DAMAGE );
+	outer_dmg = ( upgraded ? FREEZEGUN_OUTER_DAMAGE_UP : FREEZEGUN_OUTER_DAMAGE );
+	final_dmg = Int( LerpFloat( outer_dmg, inner_dmg, dist_ratio ) );
+	self.freezegun_damage += final_dmg;
+	if( self.freezegun_damage >= self.health || self.health <= 0 ) {
+		self.marked_for_freeze_death = true;
+	}
+	self thread freeze_zombie(player);
+	instakill = player zm_powerups::is_insta_kill_active();
+	time = ( self.health < 0 || instakill || is_dog ? RandomFloatRange( 0.5, 0.7 ) : RandomFloatRange( FREEZEGUN_MIN_TIME, FREEZEGUN_MAX_TIME ) );
+	self unfreeze_zombie_in( time );
+	//self clientfield::set( "toggle_freezegun_iceover", 0 );
+	self clientfield::set( "toggle_freezegun_crumple", 0 );
+	self.last_freezegun_dist_ratio = dist_ratio;
+	weapon = ( upgraded ? level.weaponZMFreezeGunUpgraded : level.weaponZMFreezeGun );
+	damage = ( instakill || is_dog || self.marked_for_freeze_death ? self.health + 666 : self.freezegun_damage );
+	self DoDamage( damage, player.origin, player, undefined, "none", "MOD_RIFLE_BULLET", 0, weapon );
+}
+
+function freeze_zombie(player)
+{
+	self endon( "death" );
+	player globallogic_score::IncPersStat( "hits", 1, true, false);
+	if( !isdefined( self ) ) return;
+	if( !isdefined( self.is_on_ice ) || !self.is_on_ice ) {
+		//self clientfield::set( "toggle_freezegun_iceover", 1 );
+		self.is_on_ice = 1;
+		self apply_freeze_model_swap(self.is_on_ice);
+		self clientfield::set( "toggle_freezegun_crumple", 1 );
+		PlaySoundAtPosition( "wpn_freezegun_collapse_zombie", self.origin );
+	}
+	while( self.is_on_ice ) {
+		self ASMSetAnimationRate( 0.5 );
+		wait .05;
+	}
+}
+
+function unfreeze_zombie_in( time )
+{
+	self endon( "death" );
+	wait time;
+	self.is_on_ice = 0;
+	util::wait_network_frame();
+	if (isdefined(self.is_on_ice) && !self.is_on_ice)
+		self apply_freeze_model_swap(self.is_on_ice);
+	self ASMSetAnimationRate(1);
+}
+
+function freezegun_death( e_attacker )
+{
+	if( self.archetype !== "zombie" && self.archetype !== "zombie_dog" ) return;
+	if( self.damageweapon === level.weaponZMFreezeGun
+		|| self.damageweapon === level.weaponZMFreezeGunUpgraded ) {
+		self clientfield::set( "toggle_freezegun_shatter", 1 );
+		PlaySoundAtPosition( "wpn_freezegun_shatter_zombie", self.origin );
+		self Ghost();
+
+		dist_ratio = self.last_freezegun_dist_ratio;
+		points = ( isdefined( dist_ratio ) && dist_ratio >= 0.9 ? 30 : 10 );
+		e_attacker zm_score::player_add_points( "thundergun_fling", points );
+	}
+}
+
+function apply_freeze_model_swap( is_frozen ) {
+
+    if( self.archetype !== "zombie" && self.archetype !== "zombie_dog" )
+        return;
+    if( !isdefined( self.models ) ) {
+        self.models = [];
+        self.models["body"] = ( self.archetype == "zombie" ? "p7_zm_dlchd_pro_honorguard_zombie_body01" : "c_zom_der_hellhound_fb" );
+        self.models["head"] = self.head;
+        self.models["hat"] = self.hatmodel;
+    }
+    self.no_gib = ( is_frozen ? true : undefined );
+    bodymodel = self get_bodymodel( is_frozen );
+    headmodel = self get_headmodel( is_frozen );
+    hatmodel = self get_hatmodel( is_frozen );
+}
+
+function get_bodymodel( is_frozen )
+{
+    model = ( is_frozen ? self.models["body"]+"_ice" : self.models["body"] );
+    self SetModel( model );
+    return model;
+}
+
+function get_headmodel( is_frozen )
+{
+    if( !isdefined( self.head ) ) return undefined;
+    model = ( is_frozen ? self.models["head"]+"_ice" : self.models["head"] );
+    self Detach( self.head );
+    self Attach( model );
+    self.head = model;
+    return model;
+}
+
+function get_hatmodel( is_frozen )
+{
+    if( !isdefined( self.hatmodel ) ) return undefined;
+    model = ( is_frozen ? self.models["hat"]+"_ice" : self.models["hat"] );
+    self Detach( self.hatmodel );
+    self Attach( model );
+    self.hatmodel = model;
+    return model;
+}

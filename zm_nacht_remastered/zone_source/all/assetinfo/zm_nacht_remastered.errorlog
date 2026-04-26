@@ -1,0 +1,82 @@
+return 20001000
+^1Could not convert image 'black'.
+  image:black
+    csv:zone_source/zm_nacht_remastered.zone
+^1ERROR: image 'black' is missing
+  image:black
+    csv:zone_source/zm_nacht_remastered.zone
+^1ERROR: 'toolbox' is not a valid physpreset asset
+  physpreset:toolbox
+    xmodel:p7_toolbox_handheld_small_red
+      col_map:maps/zm/zm_nacht_remastered.d3dbsp
+^1ERROR: 'p7_tools_hammer' is not a valid physpreset asset
+  physpreset:p7_tools_hammer
+    xmodel:p7_tools_hammer
+      col_map:maps/zm/zm_nacht_remastered.d3dbsp
+^1ERROR: 'p7_medical_bag_supply' is not a valid physpreset asset
+  physpreset:p7_medical_bag_supply
+    xmodel:p7_medical_bag_supply_dirty
+      col_map:maps/zm/zm_nacht_remastered.d3dbsp
+^1ERROR: 'p7_medical_gauze_pads_box_red' is not a valid physpreset asset
+  physpreset:p7_medical_gauze_pads_box_red
+    xmodel:p7_medical_gauze_pads_box_red_dirty
+      col_map:maps/zm/zm_nacht_remastered.d3dbsp
+^1ERROR: 'p7_medical_case_02_lid' is not a valid physpreset asset
+  physpreset:p7_medical_case_02_lid
+    xmodel:p7_medical_case_02_lid_dirty
+      xmodel:p7_medical_case_02_dirty
+        col_map:maps/zm/zm_nacht_remastered.d3dbsp
+^1ERROR: 'p7_box_cardboard_c_closed' is not a valid physpreset asset
+  physpreset:p7_box_cardboard_c_closed
+    xmodel:p7_box_cardboard_c_closed
+      col_map:maps/zm/zm_nacht_remastered.d3dbsp
+^1ERROR: 'water_cooler_bottle' is not a valid physpreset asset
+  physpreset:water_cooler_bottle
+    xmodel:nt_2020_cardboardbox
+      col_map:maps/zm/zm_nacht_remastered.d3dbsp
+^1ERROR: 'p7_clipboard_01_wpaper' is not a valid physpreset asset
+  physpreset:p7_clipboard_01_wpaper
+    xmodel:p7_clipboard_01_wpaper
+      col_map:maps/zm/zm_nacht_remastered.d3dbsp
+^1ERROR: 'p7_box_cardboard_c_open01' is not a valid physpreset asset
+  physpreset:p7_box_cardboard_c_open01
+    xmodel:p7_box_cardboard_c_open01
+      col_map:maps/zm/zm_nacht_remastered.d3dbsp
+^1ERROR: 'p7_medical_gauze_pads_box' is not a valid physpreset asset
+  physpreset:p7_medical_gauze_pads_box
+    xmodel:p7_medical_gauze_pads_box
+      col_map:maps/zm/zm_nacht_remastered.d3dbsp
+^1ERROR: 'p7_medical_gauze_pads_box_blue' is not a valid physpreset asset
+  physpreset:p7_medical_gauze_pads_box_blue
+    xmodel:p7_medical_gauze_pads_box_blue
+      col_map:maps/zm/zm_nacht_remastered.d3dbsp
+^1ERROR: 'p7_medical_gauze_sanitation_towels_02' is not a valid physpreset asset
+  physpreset:p7_medical_gauze_sanitation_towels_02
+    xmodel:p7_medical_gauze_sanitation_towels_02
+      col_map:maps/zm/zm_nacht_remastered.d3dbsp
+^1ERROR: 'p7_container_jug_water_gallon_b' is not a valid physpreset asset
+  physpreset:p7_container_jug_water_gallon_b
+    xmodel:p7_container_jug_water_gallon_b
+      col_map:maps/zm/zm_nacht_remastered.d3dbsp
+^1Character pbt_wawdempsey has an invalid helmet style at position 1
+  playerbodytype:pbt_wawdempsey
+    customizationtable:zm_character_customization
+      csv:zone_source/zm_nacht_remastered.zone
+^1Character pbt_wawnikolai has an invalid helmet style at position 1
+  playerbodytype:pbt_wawnikolai
+    customizationtable:zm_character_customization
+      csv:zone_source/zm_nacht_remastered.zone
+^1Character pbt_wawrichtofen has an invalid helmet style at position 1
+  playerbodytype:pbt_wawrichtofen
+    customizationtable:zm_character_customization
+      csv:zone_source/zm_nacht_remastered.zone
+^1Character pbt_wawtakeo has an invalid helmet style at position 1
+  playerbodytype:pbt_wawtakeo
+    customizationtable:zm_character_customization
+      csv:zone_source/zm_nacht_remastered.zone
+^1ERROR: Material mtl_origins_camo_alt was not found in gdtDB
+  material:mc/mtl_origins_camo_alt
+    weaponcamo:t5_camo_ak74u_table
+      weapon:t5_ak74u_launcher_zm
+        csv:zone_source/zm_nacht_remastered.zone
+^3Found 7 bad bulletmeshes, dumped to C:\Program Files (x86)\Steam\steamapps\common\Call of Duty Black Ops III\/usermaps\zm_nacht_remastered/zone_source/all/assetinfo/zm_nacht_remastered_bulletreport.csv file.
